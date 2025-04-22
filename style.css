@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url('img/background.avif');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#covidData{
+    width: 90%;
+    /* background-color: rgb(59, 168, 168); */
+    margin: 30px auto;
+    border: 2px solid rgb(4, 68, 78);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.heading{
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    color: #172748;
+    text-shadow: 0.5px 0.5px #2f4a80;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.data{
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#index{
+    border-left: 0px;
+}
+
+.tableRow:hover{
+    background-color: #34435fbf;
+    color: white;
+}
